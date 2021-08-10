@@ -1,4 +1,4 @@
-package com.selftraining.springstuff;
+package com.library.management.system;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
