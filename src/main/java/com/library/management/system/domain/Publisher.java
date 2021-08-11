@@ -15,7 +15,7 @@ public class Publisher {
     private String name;
     @Column(name="PUBLISHER_ADDRESS")
     private String address;
-    @OneToOne(mappedBy = "publisher")
+    @OneToMany(mappedBy = "publisher")
     private Set<Book> books = new HashSet<>();
     public Publisher() {
     }
